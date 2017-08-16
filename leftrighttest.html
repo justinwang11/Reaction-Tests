@@ -1,0 +1,109 @@
+<!DOCTYPE html>
+
+  <html>
+    <head>
+      <meta charset="utf-8" content="">
+      <title>Left/Right Test</title>
+      <link rel="stylesheet" href="static/stylesheets/reactiontest.css">
+      <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400" rel="stylesheet">
+      <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+      <script type="text/javascript" src="leftrighttest.js"></script>
+    </head>
+
+    <body>
+
+    <h1 id="header">Reaction Test</h1>
+    <br>
+    <div class="game-box">
+      <div class="left-arrow">
+        <img id="left" src="static/leftarrow.jpg" name="left" alt="">
+      </div>
+      <div class="cross">
+        <img id="center" src="static/cross.jpg" name="center" alt="">
+      </div>
+      <div class="right-arrow">
+        <img id="right" src="static/rightarrow.jpg" name="right" alt="">
+      </div>
+    </div>
+
+    <br>
+    <h2 id="start">Start!</h2>
+    <br>
+
+    <table>
+      <tr>
+        <td id="value1"></td>
+        <td id="accuracy1"></td>
+      </tr>
+      <tr>
+        <td id="value2"></td>
+        <td id="accuracy2"></td>
+      </tr>
+      <tr>
+        <td id="value3"></td>
+        <td id="accuracy3"></td>
+      </tr>
+      <tr>
+        <td id="value4"></td>
+        <td id="accuracy4"></td>
+      </tr>
+      <tr>
+        <td id="value5"></td>
+        <td id="accuracy5"></td>
+      </tr>
+      <tr>
+        <td id="value6"></td>
+        <td id="accuracy6"></td>
+      </tr>
+      <tr>
+        <td id="value7"></td>
+        <td id="accuracy7"></td>
+      </tr>
+      <tr>
+        <td id="value8"></td>
+        <td id="accuracy8"></td>
+      </tr>
+      <tr>
+        <td id="value9"></td>
+        <td id="accuracy9"></td>
+      </tr>
+      <tr>
+        <td id="value10"></td>
+        <td id="accuracy10"></td>
+      </tr>
+    </table>
+    <br>
+    <h3 id="clear">Clear</h3>
+
+    <script type="text/javascript">
+      $('#start').on("click", function () {
+        startOver();
+        $('#start').css('visibility', 'hidden');
+      });
+      $('#clear').on("click", function () {
+        $('#value1').html("");
+        $('#value2').html("");
+        $('#value3').html("");
+        $('#value4').html("");
+        $('#value5').html("");
+        $('#value6').html("");
+        $('#value7').html("");
+        $('#value8').html("");
+        $('#value9').html("");
+        $('#value10').html("");
+        $('#accuracy1').html("");
+        $('#accuracy2').html("");
+        $('#accuracy3').html("");
+        $('#accuracy4').html("");
+        $('#accuracy5').html("");
+        $('#accuracy6').html("");
+        $('#accuracy7').html("");
+        $('#accuracy8').html("");
+        $('#accuracy9').html("");
+        $('#accuracy10').html("");
+        $('#start').css('visibility', 'visible');
+        $('#clear').css('visibility', 'hidden');
+      });
+    </script>
+    </body>
+</html>

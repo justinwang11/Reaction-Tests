@@ -1,0 +1,42 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <title>Sniffy</title>
+    <link rel="stylesheet" href="static/stylesheets/reactiontest.css">
+    <link href="https://fonts.googleapis.com/css?family=Raleway:100,200,400" rel="stylesheet">
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.1.1/jquery.min.js"></script>
+    <script type="text/javascript" src="sniffy.js"></script>
+  </head>
+  <body>
+    <h1 id="header">Sniffy</h1>
+    <br>
+
+    <div class="video-box">
+      <video id="video" src="static/Sniffy.mp4">
+        Your browser does not support HTML video. Please use something other than Netscape Navigator jeez.
+      </video>
+    </div>
+
+    <br>
+    <h2 id="start">Start!</h2>
+    <br>
+
+    <table id="table">
+    </table>
+    <br>
+    <h3 id="clear">Clear</h3>
+
+    <script type="text/javascript">
+      $('#start').on("click", function () {
+        startOver();
+        $('#start').css('visibility', 'hidden');
+      });
+      $('#clear').on("click", function () {
+        $('#table').empty();
+        $('#start').css('visibility', 'visible');
+        $('#clear').css('visibility', 'hidden');
+      });
+    </script>
+  </body>
+</html>

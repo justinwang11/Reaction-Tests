@@ -1,0 +1,141 @@
+h1 {
+  font-family: Raleway, sans-serif;
+  color: #f45800;
+  font-size: 40px;
+  font-weight: 100;
+  margin: 0 auto;
+  positon: relative;
+  text-align: center;
+}
+
+h2 {
+  font-family: Raleway, sans-serif;
+  background-color: #3897f0;
+  color: white;
+  width: 150px;
+  height: 45px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  font-size: 36px;
+  font-weight: 200;
+  border-radius: 2px;
+}
+
+h2:hover {
+  cursor: pointer;
+  background-color: #4d4d4d;
+}
+
+h3 {
+  font-family: Raleway, sans-serif;
+  background-color: #ff4d4d;
+  color: white;
+  width: 115px;
+  height: 35px;
+  text-align: center;
+  margin: 0 auto;
+  position: relative;
+  font-size: 24px;
+  font-weight: 200;
+  border-radius: 2px;
+  visibility: hidden;
+}
+
+h3:hover {
+  cursor: pointer;
+  background-color: #4d4d4d;
+}
+
+body {
+  font-size : 10pt;
+  font-family : Raleway;
+  margin-left : 15px;
+  margin-right : 0px;
+  background-color: #FAF9F5;
+}
+
+.game-box {
+  display: block;
+  width: 1000px;
+  height: 400px;
+  background: #fff;
+  border: 1px solid #000;
+  margin: 0 auto;
+  position: relative;
+}
+
+.video-box {
+  display: block;
+  width: 568px;
+  height: 320px;
+  border: 1px solid #000;
+  margin: 0 auto;
+  position: relative;
+}
+
+.left-arrow {
+  display: block;
+  float: left;
+  width: 400px;
+  height: 400px;
+}
+
+.cross {
+  display: block;
+  float: left;
+  width: 200px;
+  height: 400px;
+}
+
+.right-arrow {
+  display: block;
+  float: left;
+  width: 400px;
+  height: 400px;
+  text-align: right;
+}
+
+.left-arrow img {
+  position:absolute;
+  top:0;
+  bottom:0;
+  margin: auto;
+}
+
+.cross img {
+  position: absolute;
+  margin: auto;
+  top: 0;
+  left: 0;
+  right: 0;
+  bottom: 0;
+}
+
+.right-arrow img {
+  position: relative;
+  top:0;
+  bottom:0;
+  margin-top: 105px;
+}
+
+table {
+  background-color: #fff;
+  width: 400px;
+  height: 215px;
+  font-family: Raleway;
+  font-size: 15px;
+  font-color: black;
+  border: 1px solid;
+  margin: 0 auto;
+}
+
+tr {
+  display: block;
+  height: 20px;
+}
+
+td {
+  width: 200px;
+  height: 20px;
+}
